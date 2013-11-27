@@ -16,6 +16,6 @@
 }
 
 - (IBAction)add:(id)sender;
-
+- (IBAction)remove:(id)sender;
 
 @end
