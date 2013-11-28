@@ -34,6 +34,20 @@
     [label setStringValue:@"Goodbye from Cocoa !!"];
 }
 
+-(IBAction)toolbarAction:(id)sender
+{
+    if([sender tag] == 0){
+        [labelToolbar setStringValue:[sender label]];
+    
+    } else {
+        [labelToolbar setStringValue:@"Computer Item Toolbar"];
+    
+    }
+    
+
+}
+
+
 -(void)dealloc
 {
     [super dealloc];

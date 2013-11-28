@@ -12,9 +12,9 @@
 {
 @private
     IBOutlet NSTextField *label;
-    
+    IBOutlet NSTextField *labelToolbar;
 }
 -(IBAction)sayHello:(id)sender;
 -(IBAction)sayGoodbye:(id)sender;
-
+-(IBAction)toolbarAction:(id)sender;
 @end
