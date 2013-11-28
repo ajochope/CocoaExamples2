@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9716F9B41847778100F8D7D2 /* Downloads.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9716F9B31847778100F8D7D2 /* Downloads.xib */; };
+		9716F9B91847798B00F8D7D2 /* DownloadsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9716F9B81847798B00F8D7D2 /* DownloadsController.m */; };
 		972C9E0F18461AF000F0EA19 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 972C9E0E18461AF000F0EA19 /* Person.m */; };
 		972C9E1218461CE700F0EA19 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 972C9E1118461CE700F0EA19 /* TableViewController.m */; };
 		972C9E141846266900F0EA19 /* turtleico2.icns in Resources */ = {isa = PBXBuildFile; fileRef = 972C9E131846266900F0EA19 /* turtleico2.icns */; };
@@ -20,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9716F9B31847778100F8D7D2 /* Downloads.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Downloads.xib; sourceTree = "<group>"; };
+		9716F9B71847798B00F8D7D2 /* DownloadsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadsController.h; sourceTree = "<group>"; };
+		9716F9B81847798B00F8D7D2 /* DownloadsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadsController.m; sourceTree = "<group>"; };
 		972C9E0D18461AF000F0EA19 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		972C9E0E18461AF000F0EA19 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		972C9E1018461CE700F0EA19 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
@@ -57,6 +62,8 @@
 		978B17201846140B008144FE = {
 			isa = PBXGroup;
 			children = (
+				9716F9B71847798B00F8D7D2 /* DownloadsController.h */,
+				9716F9B81847798B00F8D7D2 /* DownloadsController.m */,
 				972C9E0D18461AF000F0EA19 /* Person.h */,
 				972C9E0E18461AF000F0EA19 /* Person.m */,
 				972C9E1018461CE700F0EA19 /* TableViewController.h */,
@@ -98,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				978B173E1846140B008144FE /* ocalles_examplesAppDelegate.h */,
+				9716F9B31847778100F8D7D2 /* Downloads.xib */,
 				978B173F1846140B008144FE /* ocalles_examplesAppDelegate.m */,
 				978B17411846140B008144FE /* MainMenu.xib */,
 				9736C2FF18473FA300EA0870 /* AppController.h */,
@@ -176,6 +184,7 @@
 				978B173D1846140B008144FE /* Credits.rtf in Resources */,
 				978B17431846140B008144FE /* MainMenu.xib in Resources */,
 				972C9E141846266900F0EA19 /* turtleico2.icns in Resources */,
+				9716F9B41847778100F8D7D2 /* Downloads.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +200,7 @@
 				972C9E0F18461AF000F0EA19 /* Person.m in Sources */,
 				972C9E1218461CE700F0EA19 /* TableViewController.m in Sources */,
 				9736C30118473FA300EA0870 /* AppController.m in Sources */,
+				9716F9B91847798B00F8D7D2 /* DownloadsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
