@@ -9,12 +9,17 @@
 #import "AppController.h"
 
 @implementation AppController
+
+@synthesize checkBoxIsEnabled;
+@synthesize amount;
+
 -(id)init
 {
     
     self = [super init];
     if(self){
-        
+        checkBoxIsEnabled = NO;
+        amount = 20;
         
     }
     
