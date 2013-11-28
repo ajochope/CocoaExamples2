@@ -11,22 +11,29 @@
 @implementation AppController
 -(id)init
 {
-
+    
     self = [super init];
     if(self){
-    
-    
+        
+        
     }
-        
-        
+    
+    
     return self;
 }
 
+-(IBAction)showDownloads:(id)sender
+{
+    if(!downloadsController){
+        downloadsController =[[DownloadsController alloc]initWithWindowNibName:@"Downloads"];
+    }
+    [downloadsController showWindow:self];
+}
 
 - (IBAction)sayHello:(id)sender
 {
     [label setStringValue:@"Hello from Cocoa !!"];
-
+    
 }
 
 - (IBAction)sayGoodbye:(id)sender
@@ -38,21 +45,22 @@
 {
     if([sender tag] == 0){
         [labelToolbar setStringValue:[sender label]];
-    
+        
     } else {
         [labelToolbar setStringValue:@"Computer Item Toolbar"];
-    
+        
     }
     
-
+    
 }
 
 
 -(void)dealloc
 {
     [super dealloc];
-
+    
 }
 
 
 @end
+
