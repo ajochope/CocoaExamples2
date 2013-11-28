@@ -10,6 +10,7 @@
 		972C9E0F18461AF000F0EA19 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 972C9E0E18461AF000F0EA19 /* Person.m */; };
 		972C9E1218461CE700F0EA19 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 972C9E1118461CE700F0EA19 /* TableViewController.m */; };
 		972C9E141846266900F0EA19 /* turtleico2.icns in Resources */ = {isa = PBXBuildFile; fileRef = 972C9E131846266900F0EA19 /* turtleico2.icns */; };
+		9736C30118473FA300EA0870 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9736C30018473FA300EA0870 /* AppController.m */; };
 		978B172D1846140B008144FE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 978B172C1846140B008144FE /* Cocoa.framework */; };
 		978B17371846140B008144FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 978B17351846140B008144FE /* InfoPlist.strings */; };
 		978B17391846140B008144FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 978B17381846140B008144FE /* main.m */; };
@@ -24,6 +25,8 @@
 		972C9E1018461CE700F0EA19 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		972C9E1118461CE700F0EA19 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		972C9E131846266900F0EA19 /* turtleico2.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = turtleico2.icns; path = ../turtleico2.icns; sourceTree = "<group>"; };
+		9736C2FF18473FA300EA0870 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		9736C30018473FA300EA0870 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 		978B17291846140B008144FE /* CocoaExamples2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaExamples2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		978B172C1846140B008144FE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		978B172F1846140B008144FE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -97,6 +100,8 @@
 				978B173E1846140B008144FE /* ocalles_examplesAppDelegate.h */,
 				978B173F1846140B008144FE /* ocalles_examplesAppDelegate.m */,
 				978B17411846140B008144FE /* MainMenu.xib */,
+				9736C2FF18473FA300EA0870 /* AppController.h */,
+				9736C30018473FA300EA0870 /* AppController.m */,
 				978B17331846140B008144FE /* Supporting Files */,
 			);
 			path = CocoaExamples2;
@@ -185,6 +190,7 @@
 				978B17401846140B008144FE /* ocalles_examplesAppDelegate.m in Sources */,
 				972C9E0F18461AF000F0EA19 /* Person.m in Sources */,
 				972C9E1218461CE700F0EA19 /* TableViewController.m in Sources */,
+				9736C30118473FA300EA0870 /* AppController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
